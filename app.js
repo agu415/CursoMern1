@@ -28,6 +28,9 @@ function getCountryTranslatedName(isoCode, language){
  */
 function getCountriesBySubregion(subregion){
     //Complete with your code
+    const region = countries.filter(x => x.subregion === "South America" );
+    console.log(region)
+
 }
 
 function main() {
